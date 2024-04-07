@@ -23,5 +23,5 @@ jobs:
     - run: pnpm install
     - run: pnpm run build
     - name: Change directory
-    - run: cd /home/tokio/actions-runner/_work/prueba1/prueba1
+      run: cd /home/tokio/actions-runner/_work/prueba1/prueba1
     - run: pm2 restart 0
